@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html id="html">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body id="body">
+
+
+<!-- nav -->
+<div class="nav" id="showNav">
+	<div class="logo">
+		<i class="fa-solid fa-code" style="color: #ededed;"></i>
+	</div>
+	<div>
+		<a class="navitem" href="#home" id="home_nav" onclick="toWhite()">
+			<h1>Home</h1>
+		</a>	
+	</div>
+	<div>
+		<a href="#about" id="about_nav" onclick="toGray()">
+			<h1>About</h1>
+		</a>	
+	</div>
+	<div>
+		<a href="#portfolio" onclick="portfolio()">
+			<h1>Portfolio</h1>
+		</a>	
+	</div>
+	<div>
+		<a href="https://drive.google.com/file/d/1LkrrP7pGidshriOe-DSEJTLbWOLVNiD6/view?usp=sharing" target="_blank">
+			<h1>Resume</h1>
+		</a>	
+	</div>
+	<div>
+		<a href="#contact" onclick="toWhite2()">
+			<h1>Contact</h1>
+		</a>	
+	</div>
+</div>
+<!-- nav -->
+
+<!-- Home -->
+<div class="homepage" id="home">
+
+	<div>
+		<h1>I’m Romeo</h1>
+	</div>
+
+	<div>
+		<p>Bringing ideas to life through code, design, and the lens.</p>
+	</div>
+
+	<div class="videoContainer">
+		<video autoplay muted loop id="myVideo" style="z-index: -10;">
+		  <source src="img/853750-hd_1920_1080_25fps.mp4" type="video/mp4">
+		</video>
+	</div>
+
+</div>
+<!-- Home -->
+
+<!-- About Page -->
+<div class="aboutPage" id="about">
+	<div class="about_valign">
+			<div class="about_col1">
+				<h1>About</h1>
+			</div>
+			<div class="about_col2">
+				<p>
+					I'm Romeo and I have almost five years of work experience in an advertising company. My first job was as an email developer, where I was introduced to different campaign platforms such as ExactTarget and Eloqua. I gained a lot of confidence from this experience and then tried a slightly different job opportunity in animation, which was a lot of fun because it felt like playing and required using my imagination to create creative ads. After two years, I decided to pursue email development again because I felt like there was unfinished business from my previous ten months of experience in that role. The responsibilities are still the same—building and deploying emails—but the platform has changed to Adobe Campaign Classic.
+				</p>
+		</div>
+	</div>
+</div>
+<!-- About Page -->
+
+<!-- portfolio Page -->
+<div class="portfolioPage" id="portfolio">
+
+	<div class="portfolio_headline">
+		<h1>PORTFOLIO</h1>
+		<div class="portfolio_nav" id="portfolio_nav">
+			<button>Design</button>
+			<button>Web Development</button>
+			<button>Photography</button>
+		</div>
+	</div>
+
+
+	<!-- Web Design -->
+	<div class="portfolio_holder webDessignItem">
+		<div class="portfolio_col1">
+			<img src="img/plant.png" alt="plant">
+			<div class="preview_hover">
+				<a href="https://drive.google.com/file/d/1i2rT7pXrjMGPLIyCR94aEAxq8aihRtWH/view?usp=sharing" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Interactive PDF Form
+			</h1>
+			<p class="porfolio_date">
+				July 29, 2024
+			</p>
+			<p class="portfolio_desc">
+				The design was initially created in Figma, and then imported into Adobe Acrobat to add form functionality. The form includes a text field that can be filled out, and the entered information can be sent via email when the submit button is clicked.
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder webDessignItem">
+		<div class="portfolio_col1">
+			<img src="img/astro.png" alt="astro">
+			<div class="preview_hover">
+				<a href="https://drive.google.com/file/d/1ZdPcAL4OmPt_DESvlLKvfN17uIIdD5fc/view?usp=sharing" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Interactive ePortfolio
+			</h1>
+			<p class="porfolio_date">
+				 July 05, 2024
+			</p>
+			<p class="portfolio_desc">
+				Using Adobe InDesign, I designed and created an interactive PDF showcasing the assignment I worked on for the IMM Program.
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder webDessignItem">
+		<div class="portfolio_col1">
+			<img src="img/jb.png" alt="james bond">
+			<div class="preview_hover">
+				<a href="https://www.figma.com/proto/qZij26FTCOC0qjAPsYUzBy/A02-DeGuzmanII-Romeo?page-id=39%3A236&node-id=39-240&viewport=238%2C291%2C0.12&t=p1QH2qjvL6Q1bwM3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=39%3A240" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Website Re-Design
+			</h1>
+			<p class="porfolio_date">
+				 March 22, 2024
+			</p>
+			<p class="portfolio_desc">
+				As part of the UX Design class assignment, I was tasked with redesigning the James Bond Museum website. This involved creating a new logo, selecting colors, and designing for both mobile and desktop platforms.
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder webDessignItem">
+		<div class="portfolio_col1">
+			<img src="img/fs.png" alt="flower shop">
+			<div class="preview_hover">
+				<a href="https://www.figma.com/proto/DrV2JUfkvwtLPESNkL30lK/ica04-deGuzman-RomeoII?page-id=0%3A1&node-id=1-2&viewport=228%2C529%2C0.29&t=g6NZRjP8Av5PCeG5-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2&show-proto-sidebar=1" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Flower Shop Prototype
+			</h1>
+			<p class="porfolio_date">
+				 February 15, 2024
+			</p>
+			<p class="portfolio_desc">
+			This was a segmented assignment. I began by creating thumbnails using pen and paper. Once I finalized them, I proceeded to the wireframing process. In the third part, I designed the logo and selected the appropriate colors. After completing all of these steps, I was able to create a prototype using Figma.
+			</p>
+		</div>
+	</div>
+	<!-- Web Design -->
+
+
+
+	<!-- Web Dev -->
+	<div class="portfolio_holder webDevItem">
+		<div class="portfolio_col1">
+			<img src="img/ajax.png" alt="AJAX">
+			<div class="preview_hover">
+				<a href="https://rarrdeguzman.github.io/hot-topics/" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Loaded Content by Ajax
+			</h1>
+			<p class="porfolio_date">
+				 August 13, 2024
+			</p>
+			<p class="portfolio_desc">
+				A final assignment in Client-side Development required creating client-side scripting to update data on a web page without the need to reload the entire page.
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder webDevItem">
+		<div class="portfolio_col1">
+			<img src="img/wordpress.png" alt="WordPress">
+			<div class="preview_hover">
+				<a href="https://degu0055.edumedia.ca/1519/rarr-portfolio/" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Custom WordPress Theme
+			</h1>
+			<p class="porfolio_date">
+				April 18, 2024
+			</p>
+			<p class="portfolio_desc">
+				I developed a custom WordPress theme for my online portfolio, which included the work I submitted to the Admission office as a requirement for the IMM program. Using WordPress minimized the amount of coding I had to do, as many elements and sections were already created. My main responsibility was the design and the styling using CSS.
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder webDevItem">
+		<div class="portfolio_col1">
+			<img src="img/library.png" alt="Library">
+			<div class="preview_hover">
+				<a href="https://degu0055.edumedia.ca/1511/DeGuzmanII-Romeo-mtm1511-final/" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Maplebrook Public Library
+			</h1>
+			<p class="porfolio_date">
+				April 12, 2024
+			</p>
+			<p class="portfolio_desc">
+				This piece was the final project in my Web Development class. The layout was first designed in the UX class and then finalized. It involved coding using HTML, CSS, and JavaScript. The website was also uploaded to web hosting using FTP.
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder webDevItem">
+		<div class="portfolio_col1">
+			<img src="img/zen.png" alt="Zen Garden">
+			<div class="preview_hover">
+				<a href="https://rarrdeguzman.github.io/portfolio824/DeGuzmanII-Romeo-a04/" target="_blank"> Click to preview </a>
+			</div>
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Zen Garden
+			</h1>
+			<p class="porfolio_date">
+				April 05, 2024
+			</p>
+			<p class="portfolio_desc">
+				Zen Garden was a challenge in which I was required to refrain from altering the HTML structure. The goal of this task is to reconstruct and redesign using only CSS.
+			</p>
+		</div>
+	</div>
+	<!-- Web Dev -->
+
+	<!-- Photography -->
+	<div class="portfolio_holder photographyItem">
+		<div class="portfolio_col1">
+			<img src="img/object-redgem-angle2.png" alt="Rubelite">
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Rubelite
+			</h1>
+			<p class="porfolio_date">
+				 March 12, 2024
+			</p>
+			<p class="portfolio_desc">
+				• f/2.2<br>• 1/160<br>• ISO 6400
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder photographyItem">
+		<div class="portfolio_col1">
+			<img src="img/focus_butterfly.png" alt="butterfly">
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Butterfly Focus
+			</h1>
+			<p class="porfolio_date">
+				 March 12, 2024
+			</p>
+			<p class="portfolio_desc">
+				• f/2.0<br>• 1/5000<br>• ISO 100
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder photographyItem">
+		<div class="portfolio_col1">
+			<img src="img/tone_vintage_building_1.png" alt="Bank St. Vintage Building 1">
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Bank St. Vintage Building 1
+			</h1>
+			<p class="porfolio_date">
+				 March 12, 2024
+			</p>
+			<p class="portfolio_desc">
+				• f/8.0<br>• 1/250<br>• ISO 100
+			</p>
+		</div>
+	</div>
+
+	<div class="portfolio_holder photographyItem">
+		<div class="portfolio_col1">
+			<img src="img/tone_vintage_building_2.png" alt="Bank St. Vintage Building 2">
+		</div>
+		<div class="portfolio_col2">
+			<h1>
+				Bank St. Vintage Building 2
+			</h1>
+			<p class="porfolio_date">
+				 March 12, 2024
+			</p>
+			<p class="portfolio_desc">
+				• f/10.0<br>• 1/100<br>• ISO 100
+			</p>
+		</div>
+	</div>
+	<!-- Photography -->
+
+
+</div>
+<!-- portfolio Page -->
+
+
+<!-- Contact Page -->
+<div class="contactPage" id="contact">
+
+
+	<div class="contact_headline">
+		<h1>Contact</h1>
+	</div>
+	<div class="contact_p">
+		<p>Thank you for reaching this section of my portfolio. If you have any questions or are interested in working with me, please feel free to contact me via email, and I’ll respond as soon as I can.</p>
+	</div>
+	<div class="contact_details">
+		<p>Email: <a class="bolder" href="mailto:rarrdeguzman@gmail.com?subject=Inquiry">rarrdeguzman@gmail.com</a></p>
+
+		<p>Phone: <a class="bolder" href="tel:+13439886951">+13439886951</a></p>
+
+		<p>LinkedIn: <a class="bolder" href="https://www.linkedin.com/in/rarrdeguzman/" target="_blank">www.linkedin.com/in/rarrdeguzman/</a></p>
+	</div>
+
+	<div class="videoContainer">
+		<video autoplay muted loop>
+		  <source src="img/853750-hd_1920_1080_25fps.mp4" type="video/mp4">
+		</video>
+	</div>
+
+
+
+
+</div>
+<!-- Contact Page -->
+
+
+
+
+
+
+
+
+<!-- burger icon -->
+<div class="burgerToggler" id="burgerToggler">
+	<i class="fa-solid fa-bars" id="burger" style="color: #ededed;" onclick="burgerToggler()"></i>
+
+	<i class="fa-solid fa-x" id="xIcon" style="color: #ededed;" onclick="burgerToggler()"></i>
+</div>
+<!-- burger icon -->
+
+
+<script src="https://kit.fontawesome.com/d0d6947446.js" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
