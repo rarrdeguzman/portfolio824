@@ -200,6 +200,10 @@ function detectButton(ev) {
 }
 
 
+function goToHome() {
+   let home_nav = document.getElementById("home_nav");
+   home_nav.click();
+}
 
 
 
