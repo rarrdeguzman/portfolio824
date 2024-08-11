@@ -51,8 +51,8 @@ function toWhite() {
    // disable scroll
    let html = document.getElementById("html");
    let body = document.getElementById("body");
-   html.style.overflow = "hidden"
-   body.style.overflow = "hidden"
+   html.style.overflow = "hidden";
+   body.style.overflow = "hidden";
 }
 
 function toWhite2() {
@@ -69,16 +69,19 @@ function toWhite2() {
    let home = document.getElementById("home");
    let about = document.getElementById("about");
    let contact = document.getElementById("contact");
+   let portfolio = document.getElementById("portfolio");
+
 
    home.style.display = "flex";
    about.style.display = "flex";
    contact.style.display = "flex";
+   portfolio.style.display = "none";
 
 
    // disable scroll
-   html.style.overflow = "hidden"
-   body.style.overflow = "hidden"
-   contact.style.overflow = "hidden"
+   html.style.overflow = "hidden";
+   body.style.overflow = "hidden";
+   contact.style.overflow = "hidden";
 
 }
 
