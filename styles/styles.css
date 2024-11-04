@@ -275,6 +275,7 @@ body {
 	column-gap: 20px;
 	padding: 10px 0 0 0;
 	text-align: center;
+	flex-wrap: wrap;
 }
 
 .portfolio_nav button {
