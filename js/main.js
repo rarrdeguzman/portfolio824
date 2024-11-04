@@ -159,6 +159,11 @@ function detectButton(ev) {
    let webDessignItem = document.querySelectorAll(".webDessignItem");
    let photographyItem = document.querySelectorAll(".photographyItem");
 
+   // newly added tab
+   let emailDevItem = document.querySelectorAll(".emailDevItem");
+   let animatedBanner = document.querySelectorAll(".animatedBanner");
+
+
 
 
    if (currentButton ===  portfolio_nav[0].innerHTML) {
@@ -170,6 +175,12 @@ function detectButton(ev) {
       }
       for(let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "none";
+      }
+      for(let i = 0; i < emailDevItem.length; i++) {
+         emailDevItem[i].style.display = "none";
+      }
+      for(let i = 0; i < animatedBanner.length; i++) {
+         animatedBanner[i].style.display = "none";
       }
    }
 
@@ -183,6 +194,48 @@ function detectButton(ev) {
       for(let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "none";
       }
+      for(let i = 0; i < emailDevItem.length; i++) {
+         emailDevItem[i].style.display = "none";
+      }
+      for(let i = 0; i < animatedBanner.length; i++) {
+         animatedBanner[i].style.display = "none";
+      }
+   }
+
+   else if (currentButton ===  portfolio_nav[2].innerHTML) {
+      for(let i = 0; i < webDessignItem.length; i++) {
+         webDessignItem[i].style.display = "none";
+      }
+      for(let i = 0; i < webDevItem.length; i++) {
+         webDevItem[i].style.display = "none";
+      }
+      for(let i = 0; i < photographyItem.length; i++) {
+         photographyItem[i].style.display = "flex";
+      }
+      for(let i = 0; i < emailDevItem.length; i++) {
+         emailDevItem[i].style.display = "none";
+      }
+      for(let i = 0; i < animatedBanner.length; i++) {
+         animatedBanner[i].style.display = "none";
+      }
+   }
+
+   else if (currentButton ===  portfolio_nav[3].innerHTML) {
+      for(let i = 0; i < webDessignItem.length; i++) {
+         webDessignItem[i].style.display = "none";
+      }
+      for(let i = 0; i < webDevItem.length; i++) {
+         webDevItem[i].style.display = "none";
+      }
+      for(let i = 0; i < photographyItem.length; i++) {
+         photographyItem[i].style.display = "none";
+      }
+      for(let i = 0; i < emailDevItem.length; i++) {
+         emailDevItem[i].style.display = "flex";
+      }
+      for(let i = 0; i < animatedBanner.length; i++) {
+         animatedBanner[i].style.display = "none";
+      }
    }
 
    else {
@@ -193,7 +246,13 @@ function detectButton(ev) {
          webDevItem[i].style.display = "none";
       }
       for(let i = 0; i < photographyItem.length; i++) {
-         photographyItem[i].style.display = "flex";
+         photographyItem[i].style.display = "none";
+      }
+      for(let i = 0; i < emailDevItem.length; i++) {
+         emailDevItem[i].style.display = "none";
+      }
+      for(let i = 0; i < animatedBanner.length; i++) {
+         animatedBanner[i].style.display = "flex";
       }
    }
 

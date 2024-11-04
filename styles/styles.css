@@ -294,10 +294,10 @@ body {
 	font-style: normal;
 	/*  400 to 700 */
 	font-weight: 500;
-  color: var(--gray);
-  font-size: 2em;
-  line-height: auto;
-  text-transform: capitalize;
+	color: var(--gray);
+	font-size: 2em;
+	line-height: auto;
+	text-transform: capitalize;
 }
 
 .portfolio_holder {
@@ -360,7 +360,10 @@ body {
 .portfolioPage .portfolio_holder:nth-child(7),
 .portfolioPage .portfolio_holder:nth-child(9),
 .portfolioPage .portfolio_holder:nth-child(11),
-.portfolioPage .portfolio_holder:nth-child(13){
+.portfolioPage .portfolio_holder:nth-child(13),
+.portfolioPage .portfolio_holder:nth-child(15),
+.portfolioPage .portfolio_holder:nth-child(17)
+{
 
   .portfolio_col1 {
     order: 2;
@@ -373,14 +376,14 @@ body {
 }
 
 .portfolio_col2 h1 {
-		font-family: "Expletus Sans", sans-serif;
-		font-optical-sizing: auto;
-		font-style: normal;
-		/*  400 to 700 */
-		font-weight: 400;
-	  color: var(--gray);
-	  font-size: 1em;
-	  line-height: auto;
+	font-family: "Expletus Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	/*  400 to 700 */
+	font-weight: 400;
+	color: var(--gray);
+	font-size: 1em;
+	line-height: auto;
 }
 
 .porfolio_date {
@@ -418,8 +421,6 @@ body {
 	row-gap: 10px;
 	position: relative;
 }
-
-
 
 .contact_headline h1{
 	font-family: "Expletus Sans", sans-serif;
@@ -490,13 +491,17 @@ body {
   	flex-direction: column;
   }
 
+
+
   .portfolioPage .portfolio_holder:nth-child(3),
   .portfolioPage .portfolio_holder:nth-child(5),
   .portfolioPage .portfolio_holder:nth-child(7),
   .portfolioPage .portfolio_holder:nth-child(9),
   .portfolioPage .portfolio_holder:nth-child(11),
-  .portfolioPage .portfolio_holder:nth-child(13){
-
+  .portfolioPage .portfolio_holder:nth-child(13),
+  .portfolioPage .portfolio_holder:nth-child(15),
+  .portfolioPage .portfolio_holder:nth-child(17)
+  {
     .portfolio_col1 {
       order: 1;
     }
