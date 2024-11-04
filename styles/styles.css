@@ -409,7 +409,9 @@ body {
 }
 
 .webDevItem,
-.photographyItem {
+.photographyItem,
+.emailDevItem,
+.animatedBanner {
 	display: none;
 }
 
