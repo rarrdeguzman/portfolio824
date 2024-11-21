@@ -1,0 +1,216 @@
+/* for Hero Image only */
+@media (min-width:959px){
+  .showOnMobile{
+    display: none;
+  }
+
+  .hideOnMobile{
+    display: block;
+  }
+}
+@media (min-width:959px){
+
+  body > nav{
+    padding: 0 80px !important;
+  }
+  .section1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .section2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .section2 div{
+    padding-top: 21px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer div:first-child{
+  /* padding: 0 0 0 0; */
+  width: 600px;
+}
+
+.footer div:last-child{
+  /* padding: 0 0 0 0; */
+  width: 300px;
+}
+
+body > div.footer > div.footerleft > p{
+  margin: 0 0 10px 0;
+}
+
+body > div.footer > div.footerleft > h1, body > div.footer > div.footerleft > p{
+  text-align: left;
+}
+
+body > div.footer > div.footerleft > div{
+  width: 455px !important;
+}
+
+
+body > div.footer > div.footerright > p{
+  text-align: right;
+}
+
+body > div.footer > div.footerleft > div{
+  /* text-align: left;
+
+  display: flex;
+  justify-content: center; */
+  margin: 0 !important;
+}
+
+.socialIcon{
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-end;  
+  margin: 0 0 10px 0;
+}
+
+body > div.footer > div.footerright > div{
+  width: 300px;
+}
+
+/* homapge 3 icons */
+.offer1, .offer2, .offer3{
+  align-self: stretch;
+}
+/* end homapge 3 icons */
+
+
+/* homepage update section */
+.update1, .update2, .update3{
+  align-self: stretch;
+}
+/* end homepage update section */
+
+
+
+/* About us */
+.ourMission{
+  display: flex;
+  flex-direction: row;
+  
+  width: 940px;
+column-gap: 0;
+}
+
+.ourMissionLeft{
+  width: 300px;
+  /* background-color: red; */
+}
+
+.ourMissionRight{
+  width: 640px;
+  /* background-color: green; */
+}
+
+.ourVission{
+  display: flex;
+  flex-direction: row;
+  
+  width: 940px;
+column-gap: 0;
+}
+
+.ourVissionLeft{
+  width: 300px;
+  /* background-color: red; */
+}
+
+.ourVissionRight{
+  width: 640px;
+  /* background-color: green; */
+}
+
+/* article */
+.article{
+  /* display: flex;
+  flex-direction: row; */
+  
+  width: 940px;
+/* column-gap: 0; */
+}
+
+.article2col{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.articleLeft{
+  width: 470px;
+  /* background-color: red; */
+  order: 1;
+}
+
+.articleRight{
+  width: 470px;
+  order: 2;
+  /* background-color: green; */
+}
+
+/* end article */ 
+
+/* Gallery */
+/* .gallery{
+  width: 940px;
+} */
+
+/*.gallery2col_uneven{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  column-gap: 20px;
+}
+
+.galleryLeft{
+  width: 646px; 
+  max-width: 646px;
+  overflow: hidden;
+  max-height: 300px;
+}
+
+.galleryRight{
+   width: 294px; 
+  max-width: 294px;
+  overflow: hidden;
+  max-height: 300px;
+}
+/* end Gallery */
+
+
+/* CONTACT US */
+
+.formContent{
+  width: 940px;
+}
+
+.formRow1{
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.formRow1 input{
+  width: 50%;
+}
+
+
+
+}
