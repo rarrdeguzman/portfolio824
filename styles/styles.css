@@ -364,12 +364,11 @@ body {
 .portfolioPage .portfolio_holder:nth-child(5),
 .portfolioPage .portfolio_holder:nth-child(7),
 .portfolioPage .portfolio_holder:nth-child(9),
-.portfolioPage .portfolio_holder:nth-child(11),
-.portfolioPage .portfolio_holder:nth-child(13),
-.portfolioPage .portfolio_holder:nth-child(15),
-.portfolioPage .portfolio_holder:nth-child(17)
+.portfolioPage .portfolio_holder:nth-child(12),
+.portfolioPage .portfolio_holder:nth-child(14),
+.portfolioPage .portfolio_holder:nth-child(16),
+.portfolioPage .portfolio_holder:nth-child(18)
 {
-
   .portfolio_col1 {
     order: 2;
   }
@@ -377,7 +376,6 @@ body {
     order: 1;
     text-align: right;
   }
-
 }
 
 .portfolio_col2 h1 {
@@ -506,14 +504,14 @@ body {
 
 
 
-  .portfolioPage .portfolio_holder:nth-child(3),
-  .portfolioPage .portfolio_holder:nth-child(5),
-  .portfolioPage .portfolio_holder:nth-child(7),
-  .portfolioPage .portfolio_holder:nth-child(9),
-  .portfolioPage .portfolio_holder:nth-child(11),
-  .portfolioPage .portfolio_holder:nth-child(13),
-  .portfolioPage .portfolio_holder:nth-child(15),
-  .portfolioPage .portfolio_holder:nth-child(17)
+.portfolioPage .portfolio_holder:nth-child(3),
+.portfolioPage .portfolio_holder:nth-child(5),
+.portfolioPage .portfolio_holder:nth-child(7),
+.portfolioPage .portfolio_holder:nth-child(9),
+.portfolioPage .portfolio_holder:nth-child(12),
+.portfolioPage .portfolio_holder:nth-child(14),
+.portfolioPage .portfolio_holder:nth-child(16),
+.portfolioPage .portfolio_holder:nth-child(18)
   {
     .portfolio_col1 {
       order: 1;
