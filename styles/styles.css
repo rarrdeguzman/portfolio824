@@ -508,6 +508,11 @@ body {
   .portfolio_holder {
   	flex-direction: column;
   }
+  	.portfolio_nav button {
+		line-height: 1.35em;
+	}
+
+
 
 
 .portfolioPage .portfolio_holder:nth-child(3),
