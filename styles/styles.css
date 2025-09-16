@@ -272,11 +272,18 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	column-gap: 20px;
 	flex-direction: row;
 	column-gap: 20px;
-	padding: 10px 0 0 0;
+	padding: 0 20px;
+	margin: 10px 0 0 0;
 	text-align: center;
 	flex-wrap: wrap;
+
+	background-color: white;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 20px;
 }
 
 .portfolio_nav button {
