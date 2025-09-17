@@ -166,95 +166,33 @@ function detectButton(ev) {
 
 
 
-   if (currentButton === portfolio_nav[0].innerHTML) {
-      for (let i = 0; i < webDessignItem.length; i++) {
-         webDessignItem[i].style.display = "flex";
-      }
-      for (let i = 0; i < webDevItem.length; i++) {
-         webDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < photographyItem.length; i++) {
-         photographyItem[i].style.display = "none";
-      }
-      for (let i = 0; i < emailDevItem.length; i++) {
-         emailDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < animatedBanner.length; i++) {
-         animatedBanner[i].style.display = "none";
-      }
-   }
+// Put all your item groups in an object
+const portfolioMap = {
+  [portfolio_nav[0].innerHTML]: webDessignItem,
+  [portfolio_nav[1].innerHTML]: webDevItem,
+  [portfolio_nav[2].innerHTML]: photographyItem,
+  [portfolio_nav[3].innerHTML]: emailDevItem,
+  default: animatedBanner
+};
 
-   else if (currentButton === portfolio_nav[1].innerHTML) {
-      for (let i = 0; i < webDessignItem.length; i++) {
-         webDessignItem[i].style.display = "none";
-      }
-      for (let i = 0; i < webDevItem.length; i++) {
-         webDevItem[i].style.display = "flex";
-      }
-      for (let i = 0; i < photographyItem.length; i++) {
-         photographyItem[i].style.display = "none";
-      }
-      for (let i = 0; i < emailDevItem.length; i++) {
-         emailDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < animatedBanner.length; i++) {
-         animatedBanner[i].style.display = "none";
-      }
-   }
+// Helper function to show/hide items
+function toggleItems(showItems) {
+  const allItems = [webDessignItem, webDevItem, photographyItem, emailDevItem, animatedBanner];
+  
+  allItems.forEach(group => {
+    for (let i = 0; i < group.length; i++) {
+      group[i].style.display = (group === showItems) ? "flex" : "none";
+    }
+  });
+}
 
-   else if (currentButton === portfolio_nav[2].innerHTML) {
-      for (let i = 0; i < webDessignItem.length; i++) {
-         webDessignItem[i].style.display = "none";
-      }
-      for (let i = 0; i < webDevItem.length; i++) {
-         webDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < photographyItem.length; i++) {
-         photographyItem[i].style.display = "flex";
-      }
-      for (let i = 0; i < emailDevItem.length; i++) {
-         emailDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < animatedBanner.length; i++) {
-         animatedBanner[i].style.display = "none";
-      }
-   }
+// Apply logic
+if (portfolioMap[currentButton]) {
+  toggleItems(portfolioMap[currentButton]);
+} else {
+  toggleItems(portfolioMap.default);
+}
 
-   else if (currentButton === portfolio_nav[3].innerHTML) {
-      for (let i = 0; i < webDessignItem.length; i++) {
-         webDessignItem[i].style.display = "none";
-      }
-      for (let i = 0; i < webDevItem.length; i++) {
-         webDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < photographyItem.length; i++) {
-         photographyItem[i].style.display = "none";
-      }
-      for (let i = 0; i < emailDevItem.length; i++) {
-         emailDevItem[i].style.display = "flex";
-      }
-      for (let i = 0; i < animatedBanner.length; i++) {
-         animatedBanner[i].style.display = "none";
-      }
-   }
-
-   else {
-      for (let i = 0; i < webDessignItem.length; i++) {
-         webDessignItem[i].style.display = "none";
-      }
-      for (let i = 0; i < webDevItem.length; i++) {
-         webDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < photographyItem.length; i++) {
-         photographyItem[i].style.display = "none";
-      }
-      for (let i = 0; i < emailDevItem.length; i++) {
-         emailDevItem[i].style.display = "none";
-      }
-      for (let i = 0; i < animatedBanner.length; i++) {
-         animatedBanner[i].style.display = "flex";
-      }
-   }
 
 }
 
