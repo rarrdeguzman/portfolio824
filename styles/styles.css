@@ -1,46 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Hind:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --gray: #222222;
-  --white: #ededed;
+	--gray: #222222;
+	--white: #ededed;
 }
 
-.expletus-sans-number{
-  font-family: "Expletus Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.expletus-sans-number {
+	font-family: "Expletus Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 	/*  400 to 700 */
-  font-weight: 400;
+	font-weight: 400;
 }
 
 .hind-light {
-  font-family: "Hind", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+	font-family: "Hind", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
 
 .hind-regular {
-  font-family: "Hind", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Hind", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .hind-medium {
-  font-family: "Hind", sans-serif;
-  font-weight: 500;
-  font-style: normal;
+	font-family: "Hind", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 .hind-semibold {
-  font-family: "Hind", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+	font-family: "Hind", sans-serif;
+	font-weight: 600;
+	font-style: normal;
 }
 
 .hind-bold {
-  font-family: "Hind", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+	font-family: "Hind", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 
@@ -92,11 +92,11 @@ body {
 }
 
 .nav div a h1 {
-  font-family: "Expletus Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+	font-family: "Expletus Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 	/*  400 to 700 */
-  font-weight: 400;
+	font-weight: 400;
 }
 
 
@@ -108,7 +108,7 @@ body {
 .homepage {
 	width: 100%;
 	height: 100%;
-/*	padding: 0 300px 0 0;*/
+	/*	padding: 0 300px 0 0;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -121,19 +121,19 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.homepage div h1{
-  font-family: "Expletus Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.homepage div h1 {
+	font-family: "Expletus Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 	/*  400 to 700 */
-  font-weight: 400;
-  font-size: 3em;
-  line-height: auto;
-  color: var(--white);
-  text-align: center;
+	font-weight: 400;
+	font-size: 3em;
+	line-height: auto;
+	color: var(--white);
+	text-align: center;
 }
 
-.homepage div p{
+.homepage div p {
 	font-family: "Hind", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -176,7 +176,7 @@ body {
 	max-width: 1000px;
 	height: 100%;
 
-/*	transition: all .8s ease;*/
+	/*	transition: all .8s ease;*/
 	padding: 0 40px 0 40px;
 	display: flex;
 	flex-direction: row;
@@ -193,16 +193,16 @@ body {
 	justify-content: flex-start;
 }
 
-.about_col1 h1{
+.about_col1 h1 {
 	font-family: "Expletus Sans", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 	/*  400 to 700 */
 	font-weight: 500;
-  color: var(--gray);
-  font-size: 2em;
-  line-height: auto;
-  text-transform: uppercase;
+	color: var(--gray);
+	font-size: 2em;
+	line-height: auto;
+	text-transform: uppercase;
 }
 
 .about_col2 {
@@ -213,12 +213,12 @@ body {
 }
 
 .about_col2 p {
-  font-family: "Hind", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  color: var(--gray);
-  font-size: 1em;
-  line-height: 1.8em;
+	font-family: "Hind", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: var(--gray);
+	font-size: 1em;
+	line-height: 1.8em;
 }
 
 .zindexReset {
@@ -297,7 +297,7 @@ body {
 	cursor: pointer;
 }
 
-.portfolio_headline h1{
+.portfolio_headline h1 {
 	font-family: "Expletus Sans", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
@@ -374,15 +374,15 @@ body {
 .portfolioPage .portfolio_holder:nth-child(12),
 .portfolioPage .portfolio_holder:nth-child(14),
 .portfolioPage .portfolio_holder:nth-child(17),
-.portfolioPage .portfolio_holder:nth-child(19)
-{
-  .portfolio_col1 {
-    order: 2;
-  }
-  .portfolio_col2 {
-    order: 1;
-    text-align: right;
-  }
+.portfolioPage .portfolio_holder:nth-child(19) {
+	.portfolio_col1 {
+		order: 2;
+	}
+
+	.portfolio_col2 {
+		order: 1;
+		text-align: right;
+	}
 }
 
 .portfolio_col2 h1 {
@@ -431,7 +431,7 @@ body {
 .contactPage {
 	width: 100%;
 	height: 100%;
-	
+
 	display: flex;
 	flex-direction: column;
 	row-gap: 10px;
@@ -440,7 +440,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.contact_headline h1{
+.contact_headline h1 {
 	font-family: "Expletus Sans", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
@@ -458,7 +458,7 @@ body {
 	padding: 0 40px 0 40px;
 }
 
-.contact_p p{
+.contact_p p {
 	font-family: "Hind", sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -488,33 +488,33 @@ body {
 /* mailJS */
 /* Form container */
 #contact-form {
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    font-family: Arial, sans-serif;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	font-family: Arial, sans-serif;
 }
 
 /* Labels */
 #contact-form label {
-    display: block;
-    margin-bottom: 6px;
-    /* font-weight: bold; */
-    color: var(--white);
+	display: block;
+	margin-bottom: 6px;
+	/* font-weight: bold; */
+	color: var(--white);
 }
 
 /* Text inputs and textarea */
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-    width: 50%;
+	width: 50%;
 	max-width: 600px;
 	min-width: 330px;
-    padding: 10px 12px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-    transition: border-color 0.3s;
+	padding: 10px 12px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 16px;
+	transition: border-color 0.3s;
 	box-sizing: border-box;
 }
 
@@ -522,119 +522,157 @@ body {
 #contact-form input[type="text"]:focus,
 #contact-form input[type="email"]:focus,
 #contact-form textarea:focus {
-    border-color: #007BFF;
-    outline: none;
+	border-color: #007BFF;
+	outline: none;
 }
 
 /* Textarea */
 #contact-form textarea {
-    min-height: 120px;
-    resize: none;
+	min-height: 120px;
+	resize: none;
 }
 
 /* Submit button */
 #contact-form input[type="submit"] {
-    background-color: transparent;       /* make it transparent */
-    color: #ffffff;                      /* white text */
-    border: 2px dotted #ffffff;          /* white dotted border */
-    padding: 12px 25px;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s;
-    display: block;
+	background-color: transparent;
+	/* make it transparent */
+	color: #ffffff;
+	/* white text */
+	border: 2px dotted #ffffff;
+	/* white dotted border */
+	padding: 12px 25px;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.3s;
+	display: block;
 }
 
 /* Hover effect */
 #contact-form input[type="submit"]:hover {
-    background-color: #ffffff;           /* white background on hover */
-    color: #000000;                      /* black text on hover */
-    border: 2px dotted #ffffff;          /* keep dotted border */
+	background-color: #ffffff;
+	/* white background on hover */
+	color: #000000;
+	/* black text on hover */
+	border: 2px dotted #ffffff;
+	/* keep dotted border */
 }
 
 
 /* Optional: spacing between inputs on small screens */
 #contact-form br {
-    display: none; /* remove the <br> spacing since margin handles spacing */
+	display: none;
+	/* remove the <br> spacing since margin handles spacing */
 }
 
 .my-confirm-btn {
-  background-color: #28a745 !important; /* green */
-  color: #fff !important;
-  border: none !important;
-  border-radius: 5px !important;
-  padding: 6px 16px !important;
-  font-size: 14px !important;
+	background-color: #28a745 !important;
+	/* green */
+	color: #fff !important;
+	border: none !important;
+	border-radius: 5px !important;
+	padding: 6px 16px !important;
+	font-size: 14px !important;
 }
 
 .my-confirm-btn:hover {
-  background-color: #218838 !important;
+	background-color: #218838 !important;
 }
 
 
 
-@media only screen and (max-width: 1024px) {
-/*  body {
-    background-color: lightblue;
-  }*/
+@media only screen and (max-width: 800px) {
+	.portfolio_nav {
+		display: none;
+	}
+
+	.webDevItem,
+	.webDessignItem,
+	.photographyItem,
+	.emailDevItem,
+	.animatedBanner {
+		display: flex;
+	}
+
+	.portfolioPage .portfolio_holder:nth-child(3),
+	.portfolioPage .portfolio_holder:nth-child(5),
+	.portfolioPage .portfolio_holder:nth-child(7),
+	.portfolioPage .portfolio_holder:nth-child(9),
+	.portfolioPage .portfolio_holder:nth-child(12),
+	.portfolioPage .portfolio_holder:nth-child(14),
+	.portfolioPage .portfolio_holder:nth-child(17),
+	.portfolioPage .portfolio_holder:nth-child(19) {
+		.portfolio_col1 {
+			order: 1;
+		}
+
+		.portfolio_col2 {
+			order: 2;
+			text-align: left;
+		}
+
+	}
 }
 
 @media only screen and (max-width: 600px) {
-/*  body {
+
+	/*  body {
     background-color: red;
   }*/
-  .about_valign {
-  	flex-direction: column;
-  	row-gap: 20px;
-  }
+	.about_valign {
+		flex-direction: column;
+		row-gap: 20px;
+	}
 
-  .portfolioPage {
-  	padding: 50px 40px 40px 40px;
-  	row-gap: 20px;
-  }
-  .portfolio_holder {
-  	flex-direction: column;
-  }
-  	.portfolio_nav button {
+	.portfolioPage {
+		padding: 50px 40px 40px 40px;
+		row-gap: 20px;
+	}
+
+	.portfolio_holder {
+		flex-direction: column;
+	}
+
+	.portfolio_nav button {
 		line-height: 1.35em;
 	}
 
 
 
 
-.portfolioPage .portfolio_holder:nth-child(3),
-.portfolioPage .portfolio_holder:nth-child(5),
-.portfolioPage .portfolio_holder:nth-child(7),
-.portfolioPage .portfolio_holder:nth-child(9),
-.portfolioPage .portfolio_holder:nth-child(12),
-.portfolioPage .portfolio_holder:nth-child(14),
-.portfolioPage .portfolio_holder:nth-child(17),
-.portfolioPage .portfolio_holder:nth-child(19)
-  {
-    .portfolio_col1 {
-      order: 1;
-    }
-    .portfolio_col2 {
-      order: 2;
-      text-align: left;
-    }
+	.portfolioPage .portfolio_holder:nth-child(3),
+	.portfolioPage .portfolio_holder:nth-child(5),
+	.portfolioPage .portfolio_holder:nth-child(7),
+	.portfolioPage .portfolio_holder:nth-child(9),
+	.portfolioPage .portfolio_holder:nth-child(12),
+	.portfolioPage .portfolio_holder:nth-child(14),
+	.portfolioPage .portfolio_holder:nth-child(17),
+	.portfolioPage .portfolio_holder:nth-child(19) {
+		.portfolio_col1 {
+			order: 1;
+		}
 
-  }
+		.portfolio_col2 {
+			order: 2;
+			text-align: left;
+		}
 
-  .portfolio_col2 {
-  	padding: 10px 0 0 0;
-  }
+	}
 
-  .portfolio_col2 {
-  	display: flex;
-  	flex-direction: column;
-/*   	row-gap: 10px; */
-  }
+	.portfolio_col2 {
+		padding: 10px 0 0 0;
+	}
 
-  .contact_p p,
-  .contact_details p {
-  	width: 100%;
-  }
+	.portfolio_col2 {
+		display: flex;
+		flex-direction: column;
+		/*   	row-gap: 10px; */
+	}
+
+	.contact_p p,
+	.contact_details p {
+		width: 100%;
+	}
 
 }
 

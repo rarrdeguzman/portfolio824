@@ -281,20 +281,20 @@ window.onload = function () {
          .then(() => {
             console.log('SUCCESS!');
 
-Swal.fire({
-  title: "Your message has been sent",
-  icon: "success",
-  position: "top",
-  toast: true,
-  showConfirmButton: true, 
-  confirmButtonText: "OK",
-  timer: 4000, // 👈 closes automatically after 2 seconds
-  timerProgressBar: true, // 👈 (optional) shows a progress bar
-  customClass: {
-    title: 'hind-regular',
-    confirmButton: 'my-confirm-btn'
-  }
-});
+            Swal.fire({
+               title: "Your message has been sent",
+               icon: "success",
+               position: "top",
+               toast: true,
+               showConfirmButton: true,
+               confirmButtonText: "OK",
+               timer: 4000, // 👈 closes automatically after 2 seconds
+               timerProgressBar: true, // 👈 (optional) shows a progress bar
+               customClass: {
+                  title: 'hind-regular',
+                  confirmButton: 'my-confirm-btn'
+               }
+            });
 
 
 
