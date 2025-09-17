@@ -264,7 +264,30 @@ function goToHome() {
    home_nav.click();
 }
 
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "H4UE0douFWum6wakp",
+            });
+        })();
 
+window.onload = function() {
+    const form = document.getElementById('contact-form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        emailjs.sendForm('service_3kmc4l8', 'template_njh004i', this)
+            .then(() => {
+                console.log('SUCCESS!');
+                alert("Thank you! Your message has been sent.");
+                form.reset(); // reset the form
+            }, (error) => {
+                alert("Oops... something went wrong. Please try again.");
+                console.log('FAILED...', error);
+            });
+    });
+}
 
 
 

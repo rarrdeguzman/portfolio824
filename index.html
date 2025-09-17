@@ -434,12 +434,15 @@
 					2024 - 2025
 				</p>
 				<p class="portfolio_desc">
-					A collection of my extra photos. This folder has more shots that show my style and practice in photography.
+					A collection of my extra photos. This folder has more shots that show my style and practice in
+					photography.
 				</p>
 				<p class="portfolio_desc">
-					<a class="cta" href="https://drive.google.com/drive/folders/1zXZX8I6ZcwbuyQ0-60mmvwqgJRkYR00X?usp=drive_link" target="_blank">View
+					<a class="cta"
+						href="https://drive.google.com/drive/folders/1zXZX8I6ZcwbuyQ0-60mmvwqgJRkYR00X?usp=drive_link"
+						target="_blank">View
 						here</a>
-				</p>				
+				</p>
 			</div>
 		</div>
 		<!-- Photography -->
@@ -598,8 +601,7 @@
 			<h1>Contact</h1>
 		</div>
 		<div class="contact_p">
-			<p>Thank you for reaching this section of my portfolio. If you have any questions or are interested in
-				working with me, please feel free to contact me via email, and I’ll respond as soon as I can.</p>
+			<p>Thank you for visiting this section of my portfolio. If you have any questions or would like to work with me, please use the contact form below, and I’ll get back to you as soon as possible.</p>
 		</div>
 		<div class="contact_details">
 			<p>Email: <a class="bolder" href="mailto:rarrdeguzman@gmail.com?subject=Inquiry">rarrdeguzman@gmail.com</a>
@@ -609,7 +611,21 @@
 
 			<p>LinkedIn: <a class="bolder" href="https://www.linkedin.com/in/rarrdeguzman/"
 					target="_blank">www.linkedin.com/in/rarrdeguzman/</a></p>
+
+			<form id="contact-form">
+				<!-- To simplify the tutorial, the value is static. -->
+				<input type="hidden" name="time" value="Mar 10 2025 08:46">
+				<label>Name</label> 
+				<input type="text" name="name" required> <br>
+				<label>Email</label>
+				<input type="email" name="email" required> <br>
+				<label>Message</label>
+				<textarea name="message" required></textarea> <br> 
+				<input type="submit" value="Send">
+			</form>
 		</div>
+
+
 
 		<div class="videoContainer">
 			<video autoplay muted loop>
@@ -640,7 +656,9 @@
 
 
 	<script src="https://kit.fontawesome.com/d0d6947446.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 	<script src="js/main.js"></script>
+
 </body>
 
 </html>

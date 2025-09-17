@@ -485,6 +485,79 @@ body {
 	font-weight: 500;
 }
 
+/* mailJS */
+/* Form container */
+#contact-form {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Labels */
+#contact-form label {
+    display: block;
+    margin-bottom: 6px;
+    /* font-weight: bold; */
+    color: var(--white);
+}
+
+/* Text inputs and textarea */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 50%;
+	max-width: 600px;
+	min-width: 330px;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+	box-sizing: border-box;
+}
+
+/* Focus effect */
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Textarea */
+#contact-form textarea {
+    min-height: 120px;
+    resize: none;
+}
+
+/* Submit button */
+#contact-form input[type="submit"] {
+    background-color: transparent;       /* make it transparent */
+    color: #ffffff;                      /* white text */
+    border: 2px dotted #ffffff;          /* white dotted border */
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: block;
+}
+
+/* Hover effect */
+#contact-form input[type="submit"]:hover {
+    background-color: #ffffff;           /* white background on hover */
+    color: #000000;                      /* black text on hover */
+    border: 2px dotted #ffffff;          /* keep dotted border */
+}
+
+
+/* Optional: spacing between inputs on small screens */
+#contact-form br {
+    display: none; /* remove the <br> spacing since margin handles spacing */
+}
+
 
 @media only screen and (max-width: 1024px) {
 /*  body {
