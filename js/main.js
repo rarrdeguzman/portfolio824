@@ -1,5 +1,5 @@
 function burgerToggler() {
-   
+
    let showNav = document.getElementById("showNav");
    let burger = document.getElementById("burger");
    let xIcon = document.getElementById("xIcon");
@@ -97,7 +97,7 @@ function toGray() {
    // section show/hide
    let home = document.getElementById("home");
    let about = document.getElementById("about");
-   
+
    home.style.display = "flex";
    about.style.display = "flex";
    let portfolio = document.getElementById("portfolio");
@@ -111,7 +111,7 @@ function toGray() {
    html.style.overflow = "hidden"
    body.style.overflow = "hidden"
 
-   
+
 }
 
 function portfolio() {
@@ -166,92 +166,92 @@ function detectButton(ev) {
 
 
 
-   if (currentButton ===  portfolio_nav[0].innerHTML) {
-      for(let i = 0; i < webDessignItem.length; i++) {
+   if (currentButton === portfolio_nav[0].innerHTML) {
+      for (let i = 0; i < webDessignItem.length; i++) {
          webDessignItem[i].style.display = "flex";
       }
-      for(let i = 0; i < webDevItem.length; i++) {
+      for (let i = 0; i < webDevItem.length; i++) {
          webDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < photographyItem.length; i++) {
+      for (let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "none";
       }
-      for(let i = 0; i < emailDevItem.length; i++) {
+      for (let i = 0; i < emailDevItem.length; i++) {
          emailDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < animatedBanner.length; i++) {
+      for (let i = 0; i < animatedBanner.length; i++) {
          animatedBanner[i].style.display = "none";
       }
    }
 
-   else if (currentButton ===  portfolio_nav[1].innerHTML) {
-      for(let i = 0; i < webDessignItem.length; i++) {
+   else if (currentButton === portfolio_nav[1].innerHTML) {
+      for (let i = 0; i < webDessignItem.length; i++) {
          webDessignItem[i].style.display = "none";
       }
-      for(let i = 0; i < webDevItem.length; i++) {
+      for (let i = 0; i < webDevItem.length; i++) {
          webDevItem[i].style.display = "flex";
       }
-      for(let i = 0; i < photographyItem.length; i++) {
+      for (let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "none";
       }
-      for(let i = 0; i < emailDevItem.length; i++) {
+      for (let i = 0; i < emailDevItem.length; i++) {
          emailDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < animatedBanner.length; i++) {
+      for (let i = 0; i < animatedBanner.length; i++) {
          animatedBanner[i].style.display = "none";
       }
    }
 
-   else if (currentButton ===  portfolio_nav[2].innerHTML) {
-      for(let i = 0; i < webDessignItem.length; i++) {
+   else if (currentButton === portfolio_nav[2].innerHTML) {
+      for (let i = 0; i < webDessignItem.length; i++) {
          webDessignItem[i].style.display = "none";
       }
-      for(let i = 0; i < webDevItem.length; i++) {
+      for (let i = 0; i < webDevItem.length; i++) {
          webDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < photographyItem.length; i++) {
+      for (let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "flex";
       }
-      for(let i = 0; i < emailDevItem.length; i++) {
+      for (let i = 0; i < emailDevItem.length; i++) {
          emailDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < animatedBanner.length; i++) {
+      for (let i = 0; i < animatedBanner.length; i++) {
          animatedBanner[i].style.display = "none";
       }
    }
 
-   else if (currentButton ===  portfolio_nav[3].innerHTML) {
-      for(let i = 0; i < webDessignItem.length; i++) {
+   else if (currentButton === portfolio_nav[3].innerHTML) {
+      for (let i = 0; i < webDessignItem.length; i++) {
          webDessignItem[i].style.display = "none";
       }
-      for(let i = 0; i < webDevItem.length; i++) {
+      for (let i = 0; i < webDevItem.length; i++) {
          webDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < photographyItem.length; i++) {
+      for (let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "none";
       }
-      for(let i = 0; i < emailDevItem.length; i++) {
+      for (let i = 0; i < emailDevItem.length; i++) {
          emailDevItem[i].style.display = "flex";
       }
-      for(let i = 0; i < animatedBanner.length; i++) {
+      for (let i = 0; i < animatedBanner.length; i++) {
          animatedBanner[i].style.display = "none";
       }
    }
 
    else {
-      for(let i = 0; i < webDessignItem.length; i++) {
+      for (let i = 0; i < webDessignItem.length; i++) {
          webDessignItem[i].style.display = "none";
       }
-      for(let i = 0; i < webDevItem.length; i++) {
+      for (let i = 0; i < webDevItem.length; i++) {
          webDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < photographyItem.length; i++) {
+      for (let i = 0; i < photographyItem.length; i++) {
          photographyItem[i].style.display = "none";
       }
-      for(let i = 0; i < emailDevItem.length; i++) {
+      for (let i = 0; i < emailDevItem.length; i++) {
          emailDevItem[i].style.display = "none";
       }
-      for(let i = 0; i < animatedBanner.length; i++) {
+      for (let i = 0; i < animatedBanner.length; i++) {
          animatedBanner[i].style.display = "flex";
       }
    }
@@ -264,29 +264,46 @@ function goToHome() {
    home_nav.click();
 }
 
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init({
-              publicKey: "H4UE0douFWum6wakp",
-            });
-        })();
+(function () {
+   // https://dashboard.emailjs.com/admin/account
+   emailjs.init({
+      publicKey: "H4UE0douFWum6wakp",
+   });
+})();
 
-window.onload = function() {
-    const form = document.getElementById('contact-form');
+window.onload = function () {
+   const form = document.getElementById('contact-form');
 
-    form.addEventListener('submit', function(event) {
-        event.preventDefault();
+   form.addEventListener('submit', function (event) {
+      event.preventDefault();
 
-        emailjs.sendForm('service_3kmc4l8', 'template_njh004i', this)
-            .then(() => {
-                console.log('SUCCESS!');
-                alert("Thank you! Your message has been sent.");
-                form.reset(); // reset the form
-            }, (error) => {
-                alert("Oops... something went wrong. Please try again.");
-                console.log('FAILED...', error);
-            });
-    });
+      emailjs.sendForm('service_3kmc4l8', 'template_njh004i', this)
+         .then(() => {
+            console.log('SUCCESS!');
+
+Swal.fire({
+  title: "Your message has been sent",
+  icon: "success",
+  position: "top",
+  toast: true,
+  showConfirmButton: true, 
+  confirmButtonText: "OK",
+  timer: 4000, // 👈 closes automatically after 2 seconds
+  timerProgressBar: true, // 👈 (optional) shows a progress bar
+  customClass: {
+    title: 'hind-regular',
+    confirmButton: 'my-confirm-btn'
+  }
+});
+
+
+
+            form.reset(); // reset the form
+         }, (error) => {
+            alert("Oops... something went wrong. Please try again.");
+            console.log('FAILED...', error);
+         });
+   });
 }
 
 

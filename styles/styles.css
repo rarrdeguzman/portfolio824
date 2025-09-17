@@ -558,6 +558,20 @@ body {
     display: none; /* remove the <br> spacing since margin handles spacing */
 }
 
+.my-confirm-btn {
+  background-color: #28a745 !important; /* green */
+  color: #fff !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 6px 16px !important;
+  font-size: 14px !important;
+}
+
+.my-confirm-btn:hover {
+  background-color: #218838 !important;
+}
+
+
 
 @media only screen and (max-width: 1024px) {
 /*  body {
